@@ -1,0 +1,213 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: auto;
+}
+
+header {
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .shopeName {
+    size: 10px;
+}
+.logo span {
+    font-weight: bold;
+}
+
+nav {
+    width: 15%;
+    background-color: #dc1212;
+    height: auto;
+    display: flex;
+    flex-direction: column; 
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.navigation a {
+    color: #fff;
+    text-decoration: none;
+    margin: 15px 15px;
+    font-size: 20px;
+    
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+footer {
+    text-align: left;
+    /* padding: 10px; */
+    background-color: #22e914;
+    color: #fff;
+    width: 100%;
+}
+
+footer .shopeName {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #22e914;
+    color: #fff;
+    width: 100%;
+}
+
+footer .shopeName img {
+    max-width: 100px;
+    max-height: 50px;
+}
+
+footer .shopeName span {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 10px; 
+}
+
+footer .shopeName .copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #f50606;
+    text-decoration: none;
+    margin-left: 300px;
+    margin-right: 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+footer .shopeName a {
+    color: #fff;
+    text-align: right;
+    text-decoration: none;
+    margin-left: 200px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.form {
+    margin-top: 20px;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+img {
+    max-width: 100px;
+    max-height: 50px;
+}
+
+header .user-profile {
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.shopeName {
+    text-align: left;
+}
+
+.shopeName img,
+.shopeName span {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.shopeName span {
+    margin-left: 10px; 
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    width: 50%; 
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+fieldset {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+input[type="file"] {
+    margin-top: 5px;
+}
+
+input[type="submit"] {
+    background-color: #dc1212;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+
+body .product-view {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin: 20px;
+}
+
+.product-box {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 250px;
+    margin: 10px;
+    padding: 10px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+
